@@ -1,0 +1,29 @@
+/* Cores personalizadas */
+:root {
+    --blue: #0097b2;
+    --orange: #f55a2a;
+}
+
+/* Hero */
+.hero {
+    background-color: var(--blue);
+    padding: 150px 0 100px 0; /* mais espaço por causa do menu fixo */
+    color: white;
+}
+.hero-alt {
+    background-color: var(--blue);
+    color: white;
+    padding: 80px 0;
+}
+
+/* Botões */
+.btn-custom {
+    background-color: var(--orange);
+    color: white;
+    border-radius: 0.3rem;
+}
+.btn-outline-custom {
+    border: 2px solid var(--orange);
+    color: var(--orange);
+    border-radius: 0.3rem;
+}
